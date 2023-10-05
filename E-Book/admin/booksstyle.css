@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.Obj-home {
+    background: url(./images/City.jpg) no-repeat center center/cover;
+
+    height: 65vh;
+
+    border: 0.2rem solid white;
+    opacity: 0.78;
+
+}
+
+
+
+.Obj-hom::before {
+    content: '';
+    background: url(./images/City.jpg) no-repeat center center/cover;
+    z-index: -1;
+    height: 64%;
+    width: 100%;
+    position: absolute;
+}
+
+/* ========================== */
+.navbar-ul {
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    color: white !important;
+}
+
+nav ul li a:hover{
+background-color: rgb(221, 52, 80);
+padding: 1rem 1.5rem 2rem 1.5rem;
+
+}
+.active{
+background-color: rgb(221, 52, 80);
+padding: 1rem 1.5rem 2rem 1.5rem;
+
+}
+/* ============================ */
+
+.about,
+.first-section {
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    height: 55vh;
+}
+
+.card {
+    background-color: rgb(247, 102, 126);
+    border: 0;
+    height: 40vh;
+    width: 25vw;
+
+}
+
+
+.inner-card {
+
+    background-color: rgb(221, 52, 80);
+
+    height: 40vh;
+    width: 29vw;
+    padding: 1rem !important;
+}
+
+.contact-card img {
+    width: 100vw !important;
+    height: 20vh !important;
+}
+
+
+.contact-card {
+    background-color: white;
+    height: 30vh;
+    width: 28vh;
+    border-bottom: 0.2rem solid black;
+}
+
+
+.contact-card-2 {
+    background-color: white;
+    height: 70vh;
+    width: 40vh;
+    border-bottom: 0.2rem solid black;
+}
+
+
+.contact-card-2 img {
+    width: 100vw !important;
+    height: 30vh !important;
+}
+
+
+
+.Top-headings {
+    width: 20rem;
+    height: 3rem;
+    transform: translateY(-70%);
+    z-index: 2 !important;
+
+    padding-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+/* =====================Media Queries======================= */
+/* ======================TABLETS======================== */
+@media only screen and (max-width: 1000px) {
+   
+    .contact-card img {
+        width: 20vw !important;
+        height: 10vh !important;
+    }
+    
+    
+    .contact-card {
+        background-color: white;
+        height: 23vh;
+        width: 10vh;
+        border-bottom: 0.2rem solid black;
+    }
+    
+.first-section {
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+
+
+    height: 35vh;
+}
+
+
+    .contact-card-2 {
+        background-color: white;
+        height: 60vh;
+        width: 20vw;
+        border-bottom: 0.2rem solid black;
+       
+    }
+    
+    
+    .contact-card-2 img {
+        width: 30vw !important;
+        height: 30vh !important;
+        
+    }
+
+    .third-section {
+       height: 70vh !important;
+       
+    }
+    .fourth-section{
+        height: 20vh !important;
+    }
+}
+/* ======================////////////TABLETS======================== */
+
+
+
+    
+/* ======================////////////Mobiles======================== */
+
+
+@media only screen and (max-width: 600px) {
+    .about{
+        border-bottom: 2px solid white;
+        border-top: 2px solid white;
+        height: 135vh;
+    }
+
+
+nav ul li{
+    font-size: 0.6rem;
+}
+
+.card {
+    background-color: rgb(247, 102, 126);
+    border: 0;
+    height: 40vh;
+    width: 50vw;
+
+}
+
+
+
+
+.inner-card {
+
+    background-color:  rgb(247, 102, 126);
+
+    height: 40vh;
+    width: 50vw;
+    padding: 1rem !important;
+}
+
+.row-contact-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-card img {
+    width: 50vw !important;
+    height: 20vh !important;
+}
+
+
+.contact-card {
+    background-color: white;
+    height: 33vh;
+    width: 20vh;
+    border-bottom: 0.2rem solid black;
+    margin-bottom: 2rem;
+}
+
+.first-section {
+border-bottom: 2px solid white;
+border-top: 2px solid white;
+
+
+height: 125vh;
+}
+
+.third-section {
+    height: 230vh !important;
+    
+ }
+
+
+ .contact-card-2 {
+    background-color: white;
+    height: 70vh;
+    width: 60vw;
+    border-bottom: 0.2rem solid black;
+   margin-bottom: 1rem;
+}
+.Row-contact-card-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-card-2 img {
+    width: 60vw !important;
+    height: 30vh !important;
+    
+}
+.fourth-section{
+    height: 37vh !important;
+}
+
+
+.icons-footer{
+display: flex ;
+justify-content: center !important;
+}
+
+
+.button-chng{
+display: flex !important;
+flex-direction: column;
+margin-top: 1rem;
+align-items: center !important;
+}
+.Top-headings {
+    width: 17rem;
+    height: 3rem;
+    transform: translateY(-70%);
+    z-index: 2 !important;
+
+    padding-top: 1rem;
+}
+}
+
+/* ======================////////////Mobiles======================== */
+
+
+
